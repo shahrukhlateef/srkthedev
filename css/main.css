@@ -1,1 +1,4 @@
-body{padding: 0;margin: 0;color: #333;}
+/* body{padding: 0;margin: 0;color: #333;} */
+/* p[class~="myclass"]{color: red;} */
+p[class^="m"]{color: red;}
+/*p[attr*="my"]{color: red;} */
