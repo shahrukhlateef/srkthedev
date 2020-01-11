@@ -1,0 +1,251 @@
+body{
+    color: #333;
+    line-height: 1.4;
+    font-size: 14px;
+}
+/***
+header css
+********************/
+.header_top{background-color: #212121; color: #fff;padding: 10px 0;}
+.s-icon{   }
+.s-icon a{ width: 30px;height: 30px; background-color: #303030;border-radius: 100%;display: inline-block;text-align: center; margin:4px 5px;}
+.ph{color: #fff;
+position: relative;
+margin:0 10px;
+}
+.ph::before{
+    content: url(../images/ph-icon.png);
+}
+.ph:hover{color: #fff;}
+.ph-btn{background-color: #a2d84c;color: #333;text-transform: uppercase;}
+.header{}
+.header ul{}
+.header ul li{
+    margin-left: 10px;
+margin-right: 10px;}
+.header ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333 !important;
+    position: relative;
+    padding-left: 0!important;
+    padding-right: 0 !important;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.header ul li a:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 8px;
+    background: #ffbd1a;
+    height: 5px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.header ul li a:hover:before{
+    left: 0;
+    right: 0;
+}
+
+/****
+slider-widget css
+*****************/
+.slider-widget{
+    position: relative;
+    background: url(../images/banner_bg.jpg) no-repeat center center / cover;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    min-height: 400px;
+}
+.slider-widget h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+.slider-widget a.btn{
+    background: #ffbd1a;
+    color: #000;
+    text-transform: uppercase;
+    border-bottom: 3px solid #ff831d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.slider-widget .carousel-indicators{
+    bottom: -50px;
+}
+.slider-widget .carousel-indicators li{
+width: 15px;
+height:15px;
+border-radius: 100%;
+}
+
+/****
+section advantages css
+***********************/
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-title h2{
+color: #333;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 40px;
+}
+.section-title h2 span{
+    color: #668e19;
+}
+.advantages-widget{
+    padding: 50px 0;
+}
+.advn-boxes{
+
+}
+.advn-box{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 15px;
+    text-align: center;
+    width: 17%;
+}
+.advn-box h3{
+font-size: 20px;
+margin: 10px 0;
+}
+.advn-box span{
+width: 150px;
+height: 150px;
+padding-top: 42px;
+background: #f1f2f2;
+display: inline-block;
+border-radius: 100%;
+transition: 0.3s all ease-in-out;
+}
+.advn-box:hover span{
+    background:#ffbd1a;
+}
+
+
+/****
+section about css
+***********************/
+.about-widget{
+    background: url(../images/about_bg.jpg) no-repeat center center / cover;
+    padding: 50px 0 30px;
+}
+.about_img{
+    position: relative;
+}
+.about_img img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -30px;
+    margin: auto;
+    width: 430px;
+}
+a.mybtn {
+    background: #ffbd1a;
+    color: #000;
+    text-transform: uppercase;
+    border-bottom: 3px solid #ff831d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/****
+section services css
+***********************/
+.services-widget{
+    padding: 50px 0;
+}
+.services_box{
+    background: #f1f2f2;
+    position: relative;
+    text-align: center;
+    padding: 30px 10px;
+    margin-top: 30px;
+}
+.services_box span{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: inline-block;
+    background: #ffbd1a;
+    padding-top: 17px;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: 0.3s all ease-in-out;
+}
+.services_box h3{
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.services_box a{
+    text-decoration: underline;
+    color: #a2d84c;
+}
+.services_box:hover span{
+    background: #a2d84c;
+}
+
+/****
+section portfolio css
+***********************/
+.portfolio-widget{
+    padding: 50px 0;
+    background: #212121;
+    color: #fff;
+}
+.portfolio-widget .section-title h2{
+color: #fff;
+}
+.portfolio_nav{}
+.portfolio_nav ul{
+    text-align: center;
+}
+.portfolio_nav ul li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+}
+.portfolio_nav ul li a{
+color: #fff;
+text-transform: uppercase;
+font-size: 18px;
+}
+.portfolio_nav ul li a:hover,
+.portfolio_nav ul li.active a{
+color: #ffbd1a;
+text-decoration: none;
+}
+.portfolio_items{
+
+}
+.portfolio_items ul{
+    
+}
+.portfolio_items ul li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 -2px;
+    width: 20%;
+}
+.portfolio_items ul li img{
+width: 100%;
+display: block;
+}
