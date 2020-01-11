@@ -214,9 +214,12 @@ section portfolio css
 .portfolio-widget .section-title h2{
 color: #fff;
 }
-.portfolio_nav{}
+.portfolio_nav{
+    margin-bottom: 20px;
+}
 .portfolio_nav ul{
     text-align: center;
+    padding-left: 0;
 }
 .portfolio_nav ul li{
     display: inline-block;
@@ -226,7 +229,8 @@ color: #fff;
 .portfolio_nav ul li a{
 color: #fff;
 text-transform: uppercase;
-font-size: 18px;
+font-size: 16px;
+    font-weight: 500;
 }
 .portfolio_nav ul li a:hover,
 .portfolio_nav ul li.active a{
@@ -237,7 +241,7 @@ text-decoration: none;
 
 }
 .portfolio_items ul{
-    
+ padding-left: 0;   
 }
 .portfolio_items ul li{
     display: inline-block;
@@ -248,4 +252,75 @@ text-decoration: none;
 .portfolio_items ul li img{
 width: 100%;
 display: block;
+}
+/****
+section process css
+***********************/
+.process-widget{
+    padding: 50px 0 10px;
+}
+.process_boxes{
+padding-left: 0;
+text-align: center;
+}
+.process_boxes li{
+display: inline-block;
+vertical-align: top;    
+position: relative;
+width: 16%;
+margin: 15px 2px;
+    padding: 0 15px;
+}
+span.counts {
+    width: 20px;
+    height: 20px;
+    background: #ffbd1a;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+    transition: 0.3s all ease-in-out;
+}
+span.p_imgs {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 20px;
+    transition: 0.3s all ease-in-out;
+    position: relative;
+}
+span.p_imgs:after {
+    content: "";
+    background: #ccc;
+    width: 90px;
+    height: 2px;
+    position: absolute;
+    right: -90px;
+    top: 50%;
+
+}
+.process_boxes li:last-child span.p_imgs:after{
+    content: none;
+}
+.process_boxes li h3{
+font-size: 14px;
+text-transform: uppercase;
+margin: 15px 0 10px;
+font-weight: bold;
+}
+.process_boxes li:hover span.p_imgs{
+    background: #ffbd1a;
+}
+.process_boxes li:hover span.counts{
+    background: #a2d84c;
 }
