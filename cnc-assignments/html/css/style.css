@@ -399,9 +399,10 @@ font-weight: bold;
 section contact css
 ***********************/
 .contact-widget{
-    padding: 50px 0 30px;
+    padding: 50px 0 0px;
     text-align: center;
 }
+iframe{display: block;}
 .addredd_div{
     position: relative;
     font-size: 22px;
@@ -424,4 +425,90 @@ section contact css
 }
 .mail_div::before{
     content: url(../images/mail_icon.png);
+}
+
+/****
+section price css
+***********************/
+.price-widget{
+    padding: 50px 0 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/****
+footer css
+***********************/
+.footer-widget{
+    background: #668e19;
+    color: #fff;
+    padding: 50px 0;
+}
+.footer a{color: #fff;}
+.footer-widget img {
+    margin: 9px 0px;
+}
+.col1{
+
+}
+.copyright{
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: 500;
+}
+.footer-widget h4{
+text-transform: uppercase;
+font-size: 20px;
+margin-bottom: 15px;
+}
+.footer-widget ul {
+list-style: none;
+padding-left: 0;
+}
+.footer-widget ul li{
+    margin: 5px 0;
+}
+.footer-widget ul li a{
+    color: #fff;
+}
+.col2{
+padding-left: 90px;
+border-right: 1px solid #a2d84c;
+}
+.lastcol{
+border: 0;
+}
+.lastcol .ph_div{
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+.lastcol .ph_div a{
+color: #fff;
+font-size: 14px;
+}
+.lastcol .ph_div::before{
+    content: url(../images/ph_icon3.png);
+}
+.lastcol .mail_div{margin-bottom: 20px;}
+.lastcol .mail_div::before{
+    content: url(../images/mail_icon3.png);
+}
+.footer-s-icon{
+
+}
+.footer-s-icon a{
+    width: 25px;
+    height: 25px;
+    background-color: #303030;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 2px;
+    padding-top: 0;
 }
