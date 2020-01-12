@@ -8,7 +8,7 @@ header css
 ********************/
 .header_top{background-color: #212121; color: #fff;padding: 10px 0;}
 .s-icon{   }
-.s-icon a{ width: 30px;height: 30px; background-color: #303030;border-radius: 100%;display: inline-block;text-align: center; margin:4px 5px;}
+.s-icon a{padding-top: 3px; width: 30px;height: 30px; background-color: #303030;border-radius: 100%;display: inline-block;text-align: center; margin:4px 5px;}
 .ph{color: #fff;
 position: relative;
 margin:0 10px;
@@ -154,7 +154,7 @@ section about css
     margin: auto;
     width: 430px;
 }
-a.mybtn {
+.mybtn {
     background: #ffbd1a;
     color: #000;
     text-transform: uppercase;
@@ -323,4 +323,105 @@ font-weight: bold;
 }
 .process_boxes li:hover span.counts{
     background: #a2d84c;
+}
+
+
+/****
+section reviews css
+***********************/
+.reviews-widget{
+    padding: 50px 0;
+    background: #f1f2f2;
+}
+.review_box{
+    padding-top: 20px;
+}
+.review_box span{
+    width: 85px;
+    height: 85px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 22px;
+    transition: 0.3s all ease-in-out;
+    position: relative;
+    background: #fff;
+
+}
+.review_box:hover span{
+background: #ffbd1a;
+}
+.review_text {
+    overflow: hidden;
+    display: block;
+}
+.review_text h3{
+font-size: 18px;
+text-transform: uppercase;
+}
+.brt{border-right:1px solid #ccc;} 
+.bbm{border-bottom:1px solid #ccc;}
+
+/****
+section skills css
+***********************/
+.skills-widget{
+    padding: 50px 0;
+}
+.skills-widget img{max-width: 100%;}
+
+/****
+section form css
+***********************/
+.form-widget{
+    padding: 50px 0 30px;
+    text-align: center;
+    background: #a2d84c;
+    color: #fff;
+}
+.form-widget h2{
+font-size: 50px;
+text-transform: uppercase;
+font-weight: bold;
+}
+.form-inline{
+    margin: 30px 0;
+}
+.form-widget .mybtn{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    margin-top: 0;
+}
+
+/****
+section contact css
+***********************/
+.contact-widget{
+    padding: 50px 0 30px;
+    text-align: center;
+}
+.addredd_div{
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.addredd_div::before{
+    content: url(../images/pin_icon.png);
+}
+.ph_div{
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.ph_div a{color: #333;text-decoration: none;}
+.ph_div::before{
+    content: url(../images/ph-icon2.png);
+}
+.mail_div::before{
+    content: url(../images/mail_icon.png);
 }
