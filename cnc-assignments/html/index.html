@@ -55,6 +55,9 @@
                 <a class="nav-link" href="#">Process</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="#">Packages</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#">Reviews</a>
             </li>
             <li class="nav-item">
@@ -356,6 +359,139 @@
     </div>
 </div>
 
+<!-- section price -->
+<div class="price-widget" id="offers">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our <span>OFFERS</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br> ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+        </div>
+<div class="row">
+    <div class="col-lg-4">
+        <div class="price_plan">
+            <h3>SILVER</h3>
+            <div class="price">$659.00</div>
+            <ul>
+                <li><h6><s>$2140</s> 60% off!</h6></li>
+                <li>Unlimited Pages Website</li>
+                <li> 1 Design Concept</li>
+                <li>1 Dedicated designer</li>
+                <li>Turn Around 5 Business Days</li>
+                <li>10 Stock Photos</li>
+                <li>Free On-Page SEO</li>
+                <li>Free 1 Year Web Hosting</li>
+                <li><strong>FREE CMS Integration</strong></li>
+                <li><strong>100% </strong>Satisfaction Guaranteed</li>
+            </ul>
+            <a href="javascript:void(0)" class="ordernow btn mybtn" onclick="package1()">Order Now</a>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="price_plan">
+            <h3>GOLD</h3>
+            <div class="price">$849.00</div>
+            <ul>
+                <li><h6><s>$1629 </s> 60% off!</h6></li>
+                <li>7 Pages Website</li>
+                <li>1 Design Concept</li>
+                <li>1 Dedicated designer</li>
+                <li>Turn Around 5 Business Days</li>
+                <li>7 Stock Photos</li>
+                <li>Free On-Page SEO</li>
+                <li>W3C Certified HTML</li>
+                <li><strong>Add CMS for $299</strong></li>
+                <li><strong>100% </strong>Satisfaction Guaranteed</li>
+            </ul>
+            <a href="javascript:void(0)" class="ordernow btn mybtn" onclick="package2()">Order Now</a>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="price_plan">
+            <h3>PLATINIUM</h3>
+            <div class="price">$949.00</div>
+            <ul>
+                <li><h6><s>$1800 </s> 20% off!</h6></li>
+                <li>7 Pages Website</li>
+                <li>1 Design Concept</li>
+                <li>1 Dedicated designer</li>
+                <li>Turn Around 5 Business Days</li>
+                <li>7 Stock Photos</li>
+                <li>Free On-Page SEO</li>
+                <li>W3C Certified HTML</li>
+                <li><strong>Add CMS for $299</strong></li>
+                <li><strong>100% </strong>Satisfaction Guaranteed</li>
+            </ul>
+            <a href="javascript:void(0)" class="ordernow btn mybtn" onclick="package3()">Order Now</a>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- section checkout -->
+<div class="checkout-widget" id="checkout">
+    <div class="container">
+        <div class="section-title">
+            <h2>Proceed to <span>Checkout</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br> ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+        </div>
+<div id="package_tbl">
+        <h4>Order Summary</h4>
+<table class="table" id="package1">
+    <tr>
+        <th>Packeg Name</th>
+        <th>Gross Amount</th>
+        <th>Discount</th>
+        <th>Net Amount</th>
+    </tr>
+    <tr>
+        <td>SILVER</td>
+        <td>$2140.00</td>
+        <td>60%</td>
+        <td>$659.00</td>
+    </tr>
+</table>
+<table class="table" id="package2">
+    <tr>
+        <th>Packeg Name</th>
+        <th>Gross Amount</th>
+        <th>Discount</th>
+        <th>Net Amount</th>
+    </tr>
+    <tr>
+        <td>GOLD</td>
+        <td>$1629.00</td>
+        <td>60%</td>
+        <td>$849.00</td>
+    </tr>
+</table>
+<table class="table" id="package3">
+    <tr>
+        <th>Packeg Name</th>
+        <th>Gross Amount</th>
+        <th>Discount</th>
+        <th>Net Amount</th>
+    </tr>
+    <tr>
+        <td>PLATINIUM</td>
+        <td>$1800.00</td>
+        <td>50%</td>
+        <td>$949.00</td>
+    </tr>
+</table>
+
+<button class="mybtn btn" onclick="proced()">continue Shopping</button>
+<button class="mybtn btn" onclick="retrn()">Return to Packages</button>
+</div>
+<div id="msgview" class="alert-info">
+    <button onclick="retrn()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+       <span aria-hidden="true" style="font-size:20px">×</span>
+     </button>    <strong>Info!</strong> Your Order has been Submited
+</div>
+    </div>
+</div>
+
+
 
 <!-- section form -->
 <div class="form-widget">
@@ -406,16 +542,7 @@
 
 </div>
 
-<!-- section price -->
-<div class="price-widget">
-    <div class="container">
-        <div class="section-title">
-            <h2>Our <span>OFFERS</span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br> ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-        </div>
 
-</div>
-</div>
 <!-- footer -->
 <footer class="footer-widget">
 <div class="container">
@@ -475,6 +602,41 @@
 <!-- js files -->
 <!-- CNC Html Assignment -->
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 	
+<script>
+function package1(){
+    document.getElementById('checkout').style.display="block";
+    document.getElementById('offers').style.display="none";
+    document.getElementById('package1').style.display="table";
+    document.getElementById('package2').style.display="none";
+    document.getElementById('package3').style.display="none";
+}
+function package2(){
+    document.getElementById('checkout').style.display="block";
+    document.getElementById('offers').style.display="none";
+    document.getElementById('package1').style.display="none";
+    document.getElementById('package2').style.display="table";
+    document.getElementById('package3').style.display="none";
+}
+function package3(){
+    document.getElementById('checkout').style.display="block";
+    document.getElementById('offers').style.display="none";
+    document.getElementById('package2').style.display="none";
+    document.getElementById('package1').style.display="none";
+    document.getElementById('package3').style.display="table";
+}
+function retrn(){
+    document.getElementById('checkout').style.display="none";
+    document.getElementById('offers').style.display="block";
+    document.getElementById('package_tbl').style.display="block";
+    document.getElementById('msgview').style.opacity="0";
+    document.getElementById('msgview').style.display="none";
+}
+function proced(){
+    document.getElementById('package_tbl').style.display="none";
+    document.getElementById('msgview').style.opacity="1";
+    document.getElementById('msgview').style.display="block";
+}
+</script>    
 </body>
 </html>
