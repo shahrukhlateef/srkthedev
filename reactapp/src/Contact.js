@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from './Form';
 
 const Contact = () => {
     return(
@@ -8,6 +9,7 @@ const Contact = () => {
                     <h1>Contact Us</h1>
                     <h3>Cpntact Page</h3>
                     <p>Search for the keywords to learn more about each warning.</p>
+                    <Form />
                 </div>
             </div>
         </div>
