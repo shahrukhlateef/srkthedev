@@ -39,7 +39,8 @@ handelsubmit = (e) => {
     //     Message is ${this.state.message}
     //     `);
 
-    // alert(JSON.stringify(this.state));
+    alert(JSON.stringify(this.state));
+    console.log(JSON.stringify(this.state));
 }
      
     render(){
