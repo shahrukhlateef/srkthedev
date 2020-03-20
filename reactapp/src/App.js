@@ -16,6 +16,7 @@ function App() {
                 <div>
                     <Header />
                     <Nav />
+					<hr />
                     <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/about" component={About} />
@@ -34,6 +35,7 @@ const Home = () => {
 return(
   <div>
     <Banner />
+	<hr />
     <Product />
   </div>
 )
