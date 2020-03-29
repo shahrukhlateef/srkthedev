@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=shh8K-oq1kA
+
+1- node js install on pc
+2- chaeck version of node (node --version)
+3- chaeck verison of npm (npm -v)
+4- to install firebase module (sudo npm install -g firebase-tools)
+5- create build folder in your project
+6- build->your app files
+7- /myapp$  firebase login
+8- /myapp$ firebase init
+9- select hosting (press spacbaar)
+10- public directory name (build)
+11- firebase deploy
+12- plz save this link

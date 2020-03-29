@@ -16,7 +16,7 @@ function App() {
                 <div>
                     <Header />
                     <Nav />
-					<hr />
+                    <hr />
                     <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/about" component={About} />

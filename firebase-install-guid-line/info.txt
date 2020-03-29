@@ -1,0 +1,27 @@
+https://github.com/uqutub/uit/tree/master/batch-2019/module-A/JavaScript-Bundle
+
+
+arry me datatype ki koi limitation nhe hoti.
+
+
+JavaScript Full Course | JavaScript Tutorial For Beginners | JavaScript Training | Edureka
+https://www.youtube.com/watch?v=o1IaduQICO0
+
+
+https://javascript.info/
+
+firebase
+https://youtu.be/shh8K-oq1kA
+
+1- sudo npm install -g firebase-tools
+2- system password
+3- creat buil folder and put all temp files
+4- firebase login
+5- firebase init
+6- select existing project
+7- apny new project jo b bnya hoga uska name ajyga (meny cnc-html-assignment) bnaya tha
+8- what do u want to use as your public directory?(public) (yaha per meny buil ka folder bnya tha me wo likh deta hu)
+9- configure as a single-page aap? (nhe single page app nhe he to me N likhoga) N
+10- file build/index.html already exists. overwrite? (me agin N likho ga)
+11- firebase deploy
+12- now its done-> https://cnc-html-assignment.firebaseapp.com/
