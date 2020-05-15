@@ -1,31 +1,32 @@
 import React,{Component} from 'react';
+import ProductList from './ProductList';
 
 class Product extends Component{
-    render(){
+	constructor(){
+		super();
+		
+	}
+	
+	render(){
+	
+	const pListAry = [
+	{id:1, ptitle:"P Title1", pdesc:"Search for the keywords to learn more about each warning."},
+	{id:2, ptitle:"P Title2", pdesc:"P description..."},
+	{id:3, ptitle:"P Title3", pdesc:"P description..."}
+	]
+	
+	const pListAryVar = pListAry.map((plistlist, i) => {		
+		return(
+		<ProductList id={pListAry[i].ptitle} ptitle={pListAry[i].ptitle} pdesc={pListAry[i].pdesc} />
+		)
+	})
+	
+	
+    
         return(
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-4">
-                        <div className="border text-center p-5 mb-5">
-                        <h3>Title 1</h3>
-                        <p>Search for the keywords to learn more about each warning.</p>
-                        <a href="" className="btn btn-success">Read More</a>
-                        </div>
-                    </div>
-                    <div className="col-sm-4">
-                        <div className="border text-center p-5 mb-5">
-                        <h3>Title 1</h3>
-                        <p>Search for the keywords to learn more about each warning.</p>
-                        <a href="" className="btn btn-success">Read More</a>
-                        </div>
-                    </div>
-                    <div className="col-sm-4">
-                        <div className="border text-center p-5 mb-5">
-                        <h3>Title 1</h3>
-                        <p>Search for the keywords to learn more about each warning.</p>
-                        <a href="" className="btn btn-success">Read More</a>
-                        </div>
-                    </div>
+				{pListAryVar}
                 </div>
             </div>
         )
