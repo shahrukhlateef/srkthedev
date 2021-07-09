@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<div id="demo1"></div>
+<h2>Data will Loaded</h2>
+<button type="button" onclick="loadData()">Click</button>
+<script>
+function loadData(){
+const xhttp = new XMLHttpRequest();
+console.log(xhttp);
+	xhttp.onload = function (){
+	debugger;
+		document.getElementById("demo1").innerHTML = this.responseText;
+	}
+	xhttp.open( "GET" , "info.txt" , true);
+	xhttp.send();
+}
+</script>
+</body>
+</html>
